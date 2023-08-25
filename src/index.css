@@ -34,3 +34,10 @@ font-size: 30px;
 .nav-link{
   color:rgb(99,99,99);
 }
+
+.hero{
+  height: 30rem;
+  width: 100vw;
+background: rgb(51,78,176);
+background: linear-gradient(90deg, rgba(51,78,176,1) 0%, rgba(9,9,121,1) 38%, rgba(169,6,120,1) 62%, rgba(0,212,255,1) 100%);
+}
