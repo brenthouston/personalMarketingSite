@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-tabs{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item{
+  font-size: 12px;
+
+}
+
+.BH{
+  font-family: "poster-gothic-round-atf", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 25px;
+}
