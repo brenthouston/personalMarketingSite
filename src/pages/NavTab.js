@@ -5,11 +5,11 @@ import "../../src/index.css"
 export default function NavTab(currentPage) {
     return(
         <div className="container">
-        <ul className="nav nav-tabs">
-        <li className="BH" style={{marginRight:"5px", color:"grey"}}>
+        <ul className="nav ">
+        <li className="BH" style={{color:"rgb(194, 194, 194)"}}>
             BRENT
          </li>
-        <li className="BH">
+        <li className="BH" style={{color:"rgb(87, 87, 87)"}}>
             HOUSTON
          </li>
         <li className="nav-item ">

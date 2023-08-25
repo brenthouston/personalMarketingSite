@@ -12,9 +12,11 @@ code {
     monospace;
 }
 
-.nav-tabs{
+.nav{
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  height: 5rem;
 }
 
 .nav-item{
@@ -26,5 +28,9 @@ code {
   font-family: "poster-gothic-round-atf", sans-serif;
 font-weight: 700;
 font-style: normal;
-font-size: 25px;
+font-size: 30px;
+}
+
+.nav-link{
+  color:rgb(99,99,99);
 }
