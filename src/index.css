@@ -35,66 +35,101 @@ font-size: 30px;
   color:rgb(99,99,99);
 }
 
-.hero{
+.container{
+  display:flex;
+  flex-direction: row;
+}
 
+.hero{
+position: relative;
   height: 30rem;
   width: 100vw;
 background: rgb(51,78,176);
 background: linear-gradient(90deg, rgba(51,78,176,1) 0%, rgba(9,9,121,1) 38%, rgba(169,6,120,1) 62%, rgba(0,212,255,1) 100%);
 border-radius: 5px;
-z-index: -1;
+z-index: 1;
 }
 .ball{
+  position: relative;
   visibility: hidden;
  height: 10rem;
-  width: 2rem;
+  width: 0px;
   border-radius: 300px;
   background-color: white;
   transition:transform, 1s ;
+  z-index: 2;
 }
 .ball1{
+  position: relative;
   visibility: hidden;
  height: 10rem;
-  width: 2rem;
+  width: 0;
   border-radius: 300px;
   background-color: white;
   transition:transform,1.1s ;
+  z-index: 2;
 }
 .ball2{
+ 
   visibility: hidden;
  height: 10rem;
-  width: 2rem;
+  width: 0;
   border-radius: 300px;
   background-color: white;
   transition:transform,1.2s ;
-}
-.animateName{
-  color:white;
-  transition: 1ms;
-  visibility: hidden;
   
 }
+
+
+
 .hero:hover .ball{
+  position: relative;
+  z-index: 2;
   visibility: visible;
   transform: translateX(60vw);
   height: 8rem;
   width:40vw;
-  
+
 }
 .hero:hover .ball1{
+  position: relative;
+  z-index: 2;
   visibility: visible;
   transform: translateX(60vw);
   height:20rem;
   width:40vw;
+  
 }
 .hero:hover .ball2{
   visibility: visible;
   transform: translateX(60vw);
   width:40vw;
+ 
 }
-.hero:hover .animateName{
-  transform: translateX(10vw);
-  width:40vw;
-  color:black;
-  visibility:visible;
+
+
+.contents{
+  display: flex;
+  flex-direction: row;
 }
+
+.hero:hover .welcomeText{
+
+  color: rgb(61, 61, 61);
+}
+
+.welcomeText{
+top: 2vh;
+  color: white;
+  width: 15rem;
+  text-align: right;
+  word-wrap: break-word;
+  position: relative;
+  left:4vw;
+  z-index: 3;
+  font-family: "poster-gothic-round-atf", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 90px;
+}
+
